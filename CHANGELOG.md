@@ -47,3 +47,47 @@
 * :maple_leaf: Relock the Pipfile.lock
 ### Improvements
 * :maple_leaf: updated requirement files (#25)
+
+## Release 0.0.8 (2021-03-23T05:45:45)
+### Features
+* prow config for pre-commit checks
+* Build based on overlays for each python version
+* update the base image to most recent s2i-thoth-ubi image
+* upgrade jupyterlab-requeriments
+* Introduce Jupyterlab extension for dependency management (#34)
+* :maple_leaf: upgrade nodejs with version > v12.0
+* :arrow_up: s2i-minimal-notebook support for python 3.8
+### Improvements
+* upgraded jupyterlab-requeriments and jupyterhub
+* upgrade pipenv for package dependency management
+* :hatched_chick: Updated jupyterhub and notebookapp to serverapp on jupyterlab use
+
+## Release 0.0.9 (2021-03-25T05:40:43)
+### Bug Fixes
+* fixed the requirements for s2i-minimal
+
+## Release 0.0.10 (2021-03-25T06:26:55)
+### Features
+* Relock python dependencies
+* corrected the thoth configuration with ubi image
+* updated the labels for the image
+
+## Release 0.0.11 (2021-04-12T05:33:15)
+### Features
+* Relock python dependencies
+* lock requirements file based on new updates
+* Relock python dependencies
+* Update jupytrelab-requirements to v0.6.3 (#52)
+
+## Release 0.0.12 (2021-04-21T15:36:13)
+### Features
+* :turtle: enable plugin for jupyter git
+* Bump jupyterlab-requirements version: (#58)
+
+## Release 0.0.13 (2021-04-22T03:27:17)
+### Features
+* :four_leaf_clover: update the pip for latest setuptools and pip
+
+## Release 0.0.14 (2021-04-22T20:13:16)
+### Features
+* Fix the jupyterlab default env var
