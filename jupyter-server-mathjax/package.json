@@ -1,0 +1,15 @@
+{
+  "name": "jupyter_server_mathjax",
+  "version": "0.2.3",
+  "description": "",
+  "dependencies": {
+    "mathjax": "^2.7.4"
+  },
+  "devDependencies": {
+    "fs-extra": "^9.0.1",
+    "rimraf": "^3.0.2"
+  },
+  "scripts": {
+    "build": "rimraf ./jupyter_server_mathjax/static && node ./copyAssets.js"
+  }
+}
