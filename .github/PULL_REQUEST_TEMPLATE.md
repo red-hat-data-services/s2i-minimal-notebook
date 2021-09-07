@@ -1,18 +1,6 @@
-## Related Issues and Dependencies
-
-…
-
-## This introduces a breaking change
-
-- [ ] Yes
-- [ ] No
-
-<!-- If this introduces a breaking change, please describe the impact and migration path for existing applications below. -->
-
-## This Pull Request implements
-
-… Explain your changes.
-
-## Description
-
-<!--- Describe your changes in detail -->
+- [ ] The commits are squashed in a cohesive manner and have meaningful messages.
+- [ ] For commits that came from upstream, `[UPSTREAM]` has been prepended to the commit message
+- [ ] JIRA link(s):
+- [ ] The Jira story is acked
+- [ ] An entry has been added to the latest build document in [Build Announcements Folder](https://drive.google.com/drive/folders/1sgkK1WZgGo9CXsLizNe0GbAzVKuSKrZL).
+- [ ] Testing instructions have been added in the PR body (for PRs involving changes that are not immediately obvious)
