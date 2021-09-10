@@ -112,6 +112,12 @@ pip install -U jupyter_nbextensions_configurator
 
 jupyter nbextensions_configurator enable --sys-prefix
 
+# Enable jupyterlab-s3-browser for s3 storage browsing
+jupyter serverextension enable --py jupyterlab_s3_browser
+
+# Enable elyra python editor
+jupyter labextension install @elyra/python-editor-extension@2.2.4 --no-build
+
 jupyter lab build
 
 # Apply custom notebook configuration
