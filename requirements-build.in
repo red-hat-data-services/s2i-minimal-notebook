@@ -1,13 +1,12 @@
-setuptools-scm==5.0.1
+setuptools-scm==6.2.0
 cffi
 dataclasses
 idna==2.10
 idna-ssl
 setuptools==53.0.0
-wheel
+wheel==0.37.0
 typing-extensions>=3.6.4
 importlib_metadata
 jupyter_packaging~=0.7.3
 poetry-core
-flit-core==3.2.0
-flit
+pip==21.3.1
