@@ -10,7 +10,6 @@ jupyter_server==1.4.1
 jupyter_packaging~=0.9
 jupyterlab_server==2.3.0
 nbclassic==0.2.6
-notebook==6.4.1
 ipython==7.16.1
 ipykernel==5.5.5
 cryptography==3.3.1
