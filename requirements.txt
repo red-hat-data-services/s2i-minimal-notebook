@@ -507,7 +507,7 @@ jupyter_kernel_gateway==2.4.0 \
     --hash=sha256:b663ea28ec01dc802780ab2d523553ee537aece9acdf911b88b0df5e7c458711 \
     --hash=sha256:dff74763ed6c6c7910906e5320505e4780204a169aae50d1767f5a6383ccb2be
     # via -r requirements.in
-jupyterhub==1.4.2 \
+jupyterhub==4.1.0 \
     --hash=sha256:d22c516d0cc110f70a4256e199c6bfc06848f6fc9dde730674b6db2c95b43996 \
     --hash=sha256:d72908b3063fed1d35a3aa793c4a7ded2c8c4016b38e0135b33af0be49a8fc21
     # via -r requirements.in
