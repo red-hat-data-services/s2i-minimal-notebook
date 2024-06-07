@@ -90,7 +90,7 @@ jupyter-server-mathjax==0.2.3 \
     --hash=sha256:564e8d1272019c6771208f577b5f9f2b3afb02b9e2bff3b34c042cef8ed84451 \
     --hash=sha256:740de2ed0d370f1856faddfaf8c09a6d7435d09d3672f24826451467b268969d
     # via nbdime
-jupyter-server==1.4.1 \
+jupyter-server==2.14.1 \
     --hash=sha256:af518ce295bfaa0d5c05031f963bdcfcd2ab156cb2223c0a70665219aed338da \
     --hash=sha256:b0126f237f679533eec46244cfc66d61e3a1f8ec0fad2d47352fa19d3e754e47
     # via
@@ -295,7 +295,7 @@ terminado==0.10.1 \
     --hash=sha256:89d5dac2f4e2b39758a0ff9a3b643707c95a020a6df36e70583b88297cd59cbe \
     --hash=sha256:c89ace5bffd0e7268bdcf22526830eb787fd146ff9d78691a0528386f92b9ae3
     # via jupyter-server
-tornado==6.1 \
+tornado==6.4.1 \
     --hash=sha256:0a00ff4561e2929a2c37ce706cb8233b7907e0cdc22eab98888aca5dd3775feb \
     --hash=sha256:0d321a39c36e5f2c4ff12b4ed58d41390460f798422c4504e09eb5678e09998c \
     --hash=sha256:1e8225a1070cd8eec59a996c43229fe8f95689cb16e552d130b9793cb570a288 \
