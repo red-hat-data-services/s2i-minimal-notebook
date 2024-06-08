@@ -491,7 +491,7 @@ jupyter-require==0.6.1 \
     # via
     #   jupyter-nbrequirements
     #   jupyter-nbutils
-jupyter-server==1.4.1 \
+jupyter-server==2.14.1 \
     --hash=sha256:af518ce295bfaa0d5c05031f963bdcfcd2ab156cb2223c0a70665219aed338da \
     --hash=sha256:b0126f237f679533eec46244cfc66d61e3a1f8ec0fad2d47352fa19d3e754e47
     # via
@@ -1165,7 +1165,7 @@ tomlkit==0.7.2 \
     --hash=sha256:173ad840fa5d2aac140528ca1933c29791b79a374a0861a80347f42ec9328117 \
     --hash=sha256:d7a454f319a7e9bd2e249f239168729327e4dd2d27b17dc68be264ad1ce36754
     # via jupyter-packaging
-tornado==6.1 \
+tornado==6.4.1 \
     --hash=sha256:0a00ff4561e2929a2c37ce706cb8233b7907e0cdc22eab98888aca5dd3775feb \
     --hash=sha256:0d321a39c36e5f2c4ff12b4ed58d41390460f798422c4504e09eb5678e09998c \
     --hash=sha256:1e8225a1070cd8eec59a996c43229fe8f95689cb16e552d130b9793cb570a288 \
