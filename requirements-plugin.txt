@@ -4,7 +4,7 @@
 #
 #    pip-compile --generate-hashes requirements-plugin.in
 #
-anyio==3.3.0 \
+anyio==4.4.0 \
     --hash=sha256:929a6852074397afe1d989002aa96d457e3e1e5441357c60d03e7eea0e65e1b0 \
     --hash=sha256:ae57a67583e5ff8b4af47666ff5651c3732d45fd26c929253748e796af860374
     # via jupyter-server
