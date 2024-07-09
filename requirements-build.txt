@@ -105,7 +105,7 @@ wheel==0.37.0 \
     --hash=sha256:21014b2bd93c6d0034b6ba5d35e4eb284340e09d63c59aef6fc14b0f346146fd \
     --hash=sha256:e2ef7239991699e3355d54f8e968a21bb940a1dbf34a4d226741e64462516fad
     # via -r requirements-build.in
-zipp==3.5.0 \
+zipp==3.19.1 \
     --hash=sha256:957cfda87797e389580cb8b9e3870841ca991e2125350677b2ca83a0e99390a3 \
     --hash=sha256:f5812b1e007e48cff63449a5e9f4e7ebea716b4111f9c4f9a645f91d579bf0c4
     # via importlib-metadata
