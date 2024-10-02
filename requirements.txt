@@ -4,7 +4,7 @@
 #
 #    pip-compile --generate-hashes requirements.in
 #
-aiohttp==3.7.4.post0 \
+aiohttp==3.10.2 \
     --hash=sha256:02f46fc0e3c5ac58b80d4d56eb0a7c7d97fcef69ace9326289fb9f1955e65cfe \
     --hash=sha256:0563c1b3826945eecd62186f3f5c7d31abb7391fedc893b7e2b26303b5a9f3fe \
     --hash=sha256:114b281e4d68302a324dd33abb04778e8557d88947875cbf4e842c2c01a030c5 \
@@ -47,11 +47,11 @@ alembic==1.6.5 \
     --hash=sha256:a21fedebb3fb8f6bbbba51a11114f08c78709377051384c9c5ead5705ee93a51 \
     --hash=sha256:e78be5b919f5bb184e3e0e2dd1ca986f2362e29a2bc933c446fe89f39dbe4e9c
     # via jupyterhub
-anyio==3.3.0 \
+anyio==4.4.0 \
     --hash=sha256:929a6852074397afe1d989002aa96d457e3e1e5441357c60d03e7eea0e65e1b0 \
     --hash=sha256:ae57a67583e5ff8b4af47666ff5651c3732d45fd26c929253748e796af860374
     # via jupyter-server
-argo-workflows==3.6.1 \
+argo-workflows==6.3.0rc9 \
     --hash=sha256:56d77ad3e0053402f694760011fcfe5ab7de8cb52dfd7b21b9e98c30f6879161 \
     --hash=sha256:f7705f212828712c869d17a1ff6bd39cf51af6c51a55e8f668c7f94601d09453
     # via thoth-common
@@ -130,7 +130,7 @@ cachetools==4.2.2 \
     --hash=sha256:2cc0b89715337ab6dbba85b5b50effe2b0c74e035d83ee8ed637cf52f12ae001 \
     --hash=sha256:61b5ed1e22a0924aed1d23b478f37e8d52549ff8a961de2909c69bf950020cff
     # via google-auth
-certifi==2021.5.30 \
+certifi==2024.7.4 \
     --hash=sha256:2bbf76fd432960138b3ef6dda3dde0544f27cbf8546c458e60baf371917ba9ee \
     --hash=sha256:50b1e4f8446b06f41be7dd6338db18e0990601dce795c2b1686458aa7e8fa7d8
     # via
@@ -215,7 +215,7 @@ commonmark==0.9.1 \
     --hash=sha256:452f9dc859be7f06631ddcb328b6919c67984aca654e5fefb3914d54691aed60 \
     --hash=sha256:da2f38c92590f83de410ba1a3cbceafbc74fee9def35f9251ba9a971d6d66fd9
     # via rich
-cryptography==3.3.1 \
+cryptography==42.0.8 \
     --hash=sha256:0003a52a123602e1acee177dc90dd201f9bb1e73f24a070db7d36c588e8f5c7d \
     --hash=sha256:0e85aaae861d0485eb5a79d33226dd6248d2a9f133b81532c8f5aae37de10ff7 \
     --hash=sha256:594a1db4511bc4d960571536abe21b4e5c3003e8750ab8365fafce71c5d86901 \
@@ -355,7 +355,7 @@ greenlet==1.1.0 \
     --hash=sha256:f42ad188466d946f1b3afc0a9e1a266ac8926461ee0786c06baac6bd71f8a6f3 \
     --hash=sha256:f92731609d6625e1cc26ff5757db4d32b6b810d2a3363b0ff94ff573e5901f6f
     # via sqlalchemy
-idna==3.2 \
+idna==3.7 \
     --hash=sha256:14475042e284991034cb48e06f6851428fb14c4dc953acd9be9a5e95c7b6dd7a \
     --hash=sha256:467fbad99067910785144ce333826c71fb0e63a425657295239737f7ecd125f3
     # via
@@ -386,7 +386,7 @@ ipython-genutils==0.2.0 \
     #   nbformat
     #   notebook
     #   traitlets
-ipython==7.16.1 \
+ipython==8.10.0 \
     --hash=sha256:2dbcc8c27ca7d3cfe4fcdff7f45b27f9a8d3edfa70ff8024a71c7a8eb5f09d64 \
     --hash=sha256:9f4fcb31d3b2c533333893b9172264e4821c1ac91839500f31bd43f2c59b3ccf
     # via
@@ -401,7 +401,7 @@ jedi==0.18.0 \
     --hash=sha256:18456d83f65f400ab0c2d3319e48520420ef43b23a086fdc05dff34132f0fb93 \
     --hash=sha256:92550a404bad8afed881a137ec9a461fed49eca661414be45059329614ed0707
     # via ipython
-jinja2==3.0.1 \
+jinja2==3.1.4 \
     --hash=sha256:1f06f2da51e7b56b8f238affdd6b4e2c61e39598a378cc49345bc1bd42a978a4 \
     --hash=sha256:703f484b47a6af502e743c9122595cc812b0271f661722403114f71a79d0f5a4
     # via
@@ -446,7 +446,7 @@ jupyter-contrib-nbextensions==0.5.1 \
     --hash=sha256:2c071f0aa208c569666f656bdc0f66906ca493cf9f06f46db6350db11030ff40 \
     --hash=sha256:eecd28ecc2fc410226c0a3d4932ed2fac4860ccf8d9e9b1b29548835a35b22ab
     # via jupyter-require
-jupyter-core==4.7.1 \
+jupyter-core==4.11.2 \
     --hash=sha256:79025cb3225efcd36847d0840f3fc672c0abd7afd0de83ba8a1d3837619122b4 \
     --hash=sha256:8c6c0cac5c1b563622ad49321d5ec47017bd18b94facb381c6973a0486395f8e
     # via
@@ -491,7 +491,7 @@ jupyter-require==0.6.1 \
     # via
     #   jupyter-nbrequirements
     #   jupyter-nbutils
-jupyter-server==1.4.1 \
+jupyter-server==2.14.1 \
     --hash=sha256:af518ce295bfaa0d5c05031f963bdcfcd2ab156cb2223c0a70665219aed338da \
     --hash=sha256:b0126f237f679533eec46244cfc66d61e3a1f8ec0fad2d47352fa19d3e754e47
     # via
@@ -507,7 +507,7 @@ jupyter_kernel_gateway==2.4.0 \
     --hash=sha256:b663ea28ec01dc802780ab2d523553ee537aece9acdf911b88b0df5e7c458711 \
     --hash=sha256:dff74763ed6c6c7910906e5320505e4780204a169aae50d1767f5a6383ccb2be
     # via -r requirements.in
-jupyterhub==1.4.2 \
+jupyterhub==4.1.6 \
     --hash=sha256:d22c516d0cc110f70a4256e199c6bfc06848f6fc9dde730674b6db2c95b43996 \
     --hash=sha256:d72908b3063fed1d35a3aa793c4a7ded2c8c4016b38e0135b33af0be49a8fc21
     # via -r requirements.in
@@ -521,7 +521,7 @@ jupyterlab-server==2.3.0 \
     # via
     #   -r requirements.in
     #   jupyterlab
-jupyterlab==3.2.4 \
+jupyterlab==3.6.8 \
     --hash=sha256:b2375626001ab48af85e5da542a56a163ac8b490828642757e4e0e5e8c5af59d \
     --hash=sha256:f692e0d95338d60f72dde660f16f3955a087775c59ec541ddb25952e3f97e9b1
     # via -r requirements.in
@@ -532,7 +532,7 @@ kubernetes==11.0.0 \
     #   argo-workflows
     #   openshift
     #   thoth-common
-lxml==4.6.3 \
+lxml==4.9.1 \
     --hash=sha256:079f3ae844f38982d156efce585bc540c16a926d4436712cf4baee0cce487a3d \
     --hash=sha256:0fbcf5565ac01dff87cbfc0ff323515c823081c5777a9fc7703ff58388c258c3 \
     --hash=sha256:122fba10466c7bd4178b07dba427aa516286b846b2cbd6f6169141917283aae2 \
@@ -584,7 +584,7 @@ lxml==4.6.3 \
     # via
     #   jupyter-contrib-nbextensions
     #   thoth-python
-mako==1.1.4 \
+mako==1.2.2 \
     --hash=sha256:17831f0b7087c313c0ffae2bcbbd3c1d5ba9eeac9c38f2eb7b50e8c99fe9d5ab \
     --hash=sha256:aea166356da44b9b830c8023cd9b557fa856bd8b4035d6de771ca027dfc5cc6e
     # via alembic
@@ -665,7 +665,7 @@ micropipenv==1.1.0 \
     --hash=sha256:281484132046abb22515f53e22935e92aff6c988a21c12e4b02f5352d9e35e56 \
     --hash=sha256:5bc62353f51ed9fa60c99541a6913e653574c760cb398f6a3fc4036b70ca18b4
     # via thamos
-mistune==0.8.4 \
+mistune==2.0.3 \
     --hash=sha256:59a3429db53c50b5c6bcc8a07f8848cb00d7dc8bdb431a4ab41920d201d4756e \
     --hash=sha256:88a1051873018da288eee8538d476dffe1262495144b33ecb586c4ab266bb8d4
     # via nbconvert
@@ -724,7 +724,7 @@ nbclient==0.5.3 \
     --hash=sha256:db17271330c68c8c88d46d72349e24c147bb6f34ec82d8481a8f025c4d26589c \
     --hash=sha256:e79437364a2376892b3f46bedbf9b444e5396cfb1bc366a472c37b48e9551500
     # via nbconvert
-nbconvert==6.1.0 \
+nbconvert==6.3.0b0 \
     --hash=sha256:37cd92ff2ae6a268e62075ff8b16129e0be4939c4dfcee53dc77cc8a7e06c684 \
     --hash=sha256:d22a8ff202644d31db254d24d52c3a96c82156623fcd7c7f987bba2612303ec9
     # via
@@ -744,7 +744,7 @@ nest-asyncio==1.5.1 \
     --hash=sha256:76d6e972265063fe92a90b9cc4fb82616e07d586b346ed9d2c89a4187acea39c \
     --hash=sha256:afc5a1c515210a23c461932765691ad39e8eba6551c055ac8d5546e69250d0aa
     # via nbclient
-notebook==6.4.1 \
+notebook==6.4.12 \
     --hash=sha256:2a67037730e2b2991f5d684ecb07255bbb191f49234888e71e1fabf8e50679a6 \
     --hash=sha256:5d999285fd449898c4dfa0b7880dd881f317c653eb221e8d51d0b5400751ce35
     # via
@@ -754,7 +754,7 @@ notebook==6.4.1 \
     #   jupyter-latex-envs
     #   jupyter-nbextensions-configurator
     #   nbclassic
-oauthlib==3.1.1 \
+oauthlib==3.2.2 \
     --hash=sha256:42bf6354c2ed8c6acb54d971fce6f88193d97297e18602a3a886603f9d7730cc \
     --hash=sha256:8f0215fcc533dd8dd1bee6f4c412d4f0cd7297307d43ac61666389e3bc3198a3
     # via
@@ -833,7 +833,7 @@ pyelftools==0.27 \
     --hash=sha256:5609aa6da1123fccfae2e8431a67b4146aa7fad5b3889f808df12b110f230937 \
     --hash=sha256:cde854e662774c5457d688ca41615f6594187ba7067af101232df889a6b7a66b
     # via thoth-python
-pygments==2.9.0 \
+pygments==2.15.0 \
     --hash=sha256:a18f47b506a429f6f4b9df81bb02beab9ca21d0a5fee38ed15aef65f0545519f \
     --hash=sha256:d66e804411278594d764fc69ec36ec13d9ae9147193a1740cd34d272ca383b8e
     # via
@@ -979,7 +979,7 @@ requests-oauthlib==1.3.0 \
     --hash=sha256:7f71572defaecd16372f9006f33c2ec8c077c3cfa6f5911a9a90202beb513f3d \
     --hash=sha256:b4261601a71fd721a8bd6d7aa1cc1d6a8a93b4a9f5e96626f8e4d91e8beeaa6a
     # via kubernetes
-requests==2.26.0 \
+requests==2.32.2 \
     --hash=sha256:6c1246513ecd5ecd4528a0906f910e8f0f9c6b8ec72030dc9fd154dc1a6efd24 \
     --hash=sha256:b8aa58f8cf793ffd8782d3d8cb19e66ef36f7aba4353eec859e74678b01b07a7
     # via
@@ -1048,7 +1048,7 @@ send2trash==1.8.0 \
     # via
     #   jupyter-server
     #   notebook
-sentry-sdk==1.3.0 \
+sentry-sdk==2.8.0 \
     --hash=sha256:5210a712dd57d88d225c1fc3fe3a3626fee493637bcd54e204826cf04b8d769c \
     --hash=sha256:6864dcb6f7dec692635e5518c2a5c80010adf673c70340817f1a1b713d65bb41
     # via thoth-common
@@ -1165,7 +1165,7 @@ tomlkit==0.7.2 \
     --hash=sha256:173ad840fa5d2aac140528ca1933c29791b79a374a0861a80347f42ec9328117 \
     --hash=sha256:d7a454f319a7e9bd2e249f239168729327e4dd2d27b17dc68be264ad1ce36754
     # via jupyter-packaging
-tornado==6.1 \
+tornado==6.4.1 \
     --hash=sha256:0a00ff4561e2929a2c37ce706cb8233b7907e0cdc22eab98888aca5dd3775feb \
     --hash=sha256:0d321a39c36e5f2c4ff12b4ed58d41390460f798422c4504e09eb5678e09998c \
     --hash=sha256:1e8225a1070cd8eec59a996c43229fe8f95689cb16e552d130b9793cb570a288 \
@@ -1248,7 +1248,7 @@ tzlocal==2.1 \
     --hash=sha256:643c97c5294aedc737780a49d9df30889321cbe1204eac2c2ec6134035a92e44 \
     --hash=sha256:e2cb6c6b5b604af38597403e9852872d7f534962ae2954c7f35efcb1ccacf4a4
     # via rfc5424-logging-handler
-urllib3==1.26.6 \
+urllib3==1.26.19 \
     --hash=sha256:39fb8672126159acb139a7718dd10806104dec1e2f0f6c88aab05d17df10c8d4 \
     --hash=sha256:f57b4c16c62fa2760b7e3d97c35b255512fb6b59a259730f36ba32ce9f8e342f
     # via
@@ -1272,7 +1272,7 @@ websocket-client==1.1.0 \
     --hash=sha256:b68e4959d704768fa20e35c9d508c8dc2bbc041fd8d267c0d7345cffe2824568 \
     --hash=sha256:e5c333bfa9fa739538b652b6f8c8fc2559f1d364243c8a689d7c0e1d41c2e611
     # via kubernetes
-wheel==0.37.0 \
+wheel==0.38.0 \
     --hash=sha256:21014b2bd93c6d0034b6ba5d35e4eb284340e09d63c59aef6fc14b0f346146fd \
     --hash=sha256:e2ef7239991699e3355d54f8e968a21bb940a1dbf34a4d226741e64462516fad
     # via jupyter-packaging
@@ -1324,3 +1324,5 @@ yaspin==2.0.0 \
 # pinned when the requirements file includes hashes. Consider using the --allow-unsafe flag.
 # pip
 # setuptools
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
